@@ -1,6 +1,4 @@
-footer ul li {
-    list-style: none;
-}
 
-
+@import "./general.css";
+@import "./index.css";
 

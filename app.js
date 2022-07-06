@@ -14,4 +14,4 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname,"./views","index.htm
 
 
 // Activación de Servidor en puerto 3030
-app.listen(port, () => console.log(`Server Runing in port ${port}`))
+app.listen(port, () => console.log(`Server Runing in http://localhost:`+port))
