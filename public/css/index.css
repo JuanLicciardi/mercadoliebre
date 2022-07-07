@@ -42,12 +42,67 @@
 }
 
 /*ESTILOS DEL MAIN*/
+
 .body_main_titulares{
     font-size: 24px;
     text-align: center;
     color: var(--ColorGrisOscuro);
+    margin: 0;
 }
 
+.body_main--ultimaVisita section {
+    margin-top: 15px;
+}
+
+.body_main--ultimaVisita img {
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+
+.body_main--ultimaVisita p.precio {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.body_main--ultimaVisita p.descuento {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.body_main--ultimaVisita p.descripcion {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+.body_main--ofertas section {
+    margin-top: 15px;
+}
+
+.body_main--ofertas img {
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+
+.body_main--ofertas p.precio {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.body_main--ofertas p.descuento {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.body_main--ofertas p.descripcion {
+    margin-left: 10px;
+    font-size: 16px;
+}
 
 /*ESTILOS DEL FOOTER*/
 .body_footer{
@@ -55,13 +110,27 @@
     padding-top: 10px ;
 }
 
+.body_footer_section {
+    text-align: center;
+    padding: 15px 0;
+    
+}
+
 .body_footer_icon {
     font-size: 2em;
     color: var(--ColorCeleste);
-    display: block;
-    text-align: center;
     margin-bottom: 10 px;
 }   
+
+.body_footer_section h3, p {
+    margin: 0;
+    padding: 0;
+  
+}
+
+.copyrigth {
+    text-align: center;
+}
 
 footer ul li {
     list-style: none;
