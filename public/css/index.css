@@ -1,4 +1,5 @@
 
+/*ESTILOS DEL HEADER*/
 .body_header{
     background-color: var(--ColorAmarillo);
     padding: 20px;
@@ -40,7 +41,27 @@
     text-decoration: none;
 }
 
+/*ESTILOS DEL MAIN*/
+.body_main_titulares{
+    font-size: 24px;
+    text-align: center;
+    color: var(--ColorGrisOscuro);
+}
 
+
+/*ESTILOS DEL FOOTER*/
+.body_footer{
+    background-color: var(--ColorGrisClaro);
+    padding-top: 10px ;
+}
+
+.body_footer_icon {
+    font-size: 2em;
+    color: var(--ColorCeleste);
+    display: block;
+    text-align: center;
+    margin-bottom: 10 px;
+}   
 
 footer ul li {
     list-style: none;
