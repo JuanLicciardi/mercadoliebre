@@ -1,4 +1,46 @@
 
+.body_header{
+    background-color: var(--ColorAmarillo);
+    padding: 20px;
+}
+
+.body_header--superior img {
+    width: 150px;
+}
+
+.body_header--superior h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.body_header_botton--burger{
+    background-color: var(--ColorAzul) ;
+    color: var(--ColorGrisClaro);
+    display: block;
+    width: 50px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-size: 18px;
+    margin:auto;
+}
+
+.body_header--menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.body_header--menu a {
+    display: inline-block;
+    padding: 5xp 0;
+    font-size: 17px;
+    color : var(--ColorOscuro);
+    text-decoration: none;
+}
+
+
+
 footer ul li {
     list-style: none;
 }

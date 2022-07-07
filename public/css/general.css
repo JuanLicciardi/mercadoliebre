@@ -1,1 +1,29 @@
-/**/
+/* Tipografia
+    font-family: 'Roboto', sans-serif;
+*/
+
+
+/* PALETA DE COLORES*/
+:root{
+    --ColorAzul: #03264C;
+    --ColorCeleste: #1259c3;
+    --ColorGrisOscuro: #666;
+    --ColorGrisClaro: #ebebeb;
+    --ColorVerde: #39b54a;
+    --ColorAmarillo: #EAC926;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 ;
+    margin: 0;
+}
+
+header{
+    font-family: 'Roboto';
+}
+
+
