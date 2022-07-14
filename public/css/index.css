@@ -2,17 +2,24 @@
 /*ESTILOS DEL HEADER*/
 .body_header{
     background-color: var(--ColorAmarillo);
-    padding: 20px;
+    
 }
 
 .body_header--superior img {
+    margin-left: 20px;
     width: 150px;
 }
+
+.body_header--superior form {
+    margin-left: 20px;
+}
+
 
 .body_header--superior h2 {
     font-weight: 400;
     text-align: center;
 }
+
 
 .body_header_botton--burger{
     background-color: var(--ColorAzul) ;
@@ -75,10 +82,6 @@
     font-size: 16px;
 }
 
-
-
-
-
 .body_main--ofertas section {
     margin-top: 15px;
 }
@@ -129,10 +132,12 @@
 }
 
 .copyrigth {
+    font-size: .7rem;
     text-align: center;
 }
 
 footer ul li {
     list-style: none;
+    font-weight: normal;
 }
 
