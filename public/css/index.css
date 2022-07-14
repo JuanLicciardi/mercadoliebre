@@ -14,12 +14,10 @@
     margin-left: 20px;
 }
 
-
 .body_header--superior h2 {
     font-weight: 400;
     text-align: center;
 }
-
 
 .body_header_botton--burger{
     background-color: var(--ColorAzul) ;
@@ -49,6 +47,42 @@
 }
 
 /*ESTILOS DEL MAIN*/
+body{
+    background-color: var(--ColorGrisClaro);
+}
+
+.body_main{
+    margin: 0px 5%;
+}
+
+.body_main section{       
+    width: 100%;
+}
+
+.body_main_article--img{
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color:#ffffff;
+}
+
+.body_main_article--item{
+    margin-top: 2px;
+    background-color: #ffffff;
+    padding: 5px 0;
+}
+
+.body_main_article--item i{
+    color: var(--ColorVerde);
+    display: block;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 15px 5px;
+    margin-left: 5px;
+    border: solid 2px var(--ColorVerde);
+    border-radius: 30px;
+}
 
 .body_main_titulares{
     font-size: 24px;
@@ -75,6 +109,7 @@
 .body_main--ultimaVisita p.descuento {
     margin-left: 10px;
     font-size: 16px;
+    color:var(--ColorVerde);
 }
 
 .body_main--ultimaVisita p.descripcion {
