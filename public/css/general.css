@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
 */
 
-
 /* PALETA DE COLORES*/
 :root{
     --ColorAzul: #03264C;
@@ -17,6 +16,7 @@
     box-sizing: border-box;
 }
 
+/*Configuracion de Body & Header*/
 body{
     padding: 0 ;
     margin: 0;
