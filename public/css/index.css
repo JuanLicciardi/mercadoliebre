@@ -86,22 +86,30 @@
 
 
 .body_main_article--item{
+    display: flex;
+    flex-wrap: wrap;
     border-top: 1px solid #ebebeb;
     background-color: #ffffff;
     padding: 15px;
+    position: relative;
 }
 
 .body_main_article--item i{
     color: var(--ColorVerde);
     display: block;
-    font-size: 18px;
-    width: 50px;
-    height: 50px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    padding: 15px 5px;
+    padding: 5px;
     margin-left: 5px;
-    border: solid 2px var(--ColorVerde);
-    border-radius: 30px;
+    border: solid 1px var(--ColorVerde);
+    border-radius: 50px;
+    background-color: #fff;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
 }
 
 .body_main_titulares{
@@ -122,12 +130,12 @@
 }
 
 .body_main--ultimaVisita p.precio {
-    margin-left: 10px;
+    width: 37%;
     font-size: 18px;
 }
 
 .body_main--ultimaVisita p.descuento {
-    margin-left: 10px;
+    width: 63%;
     font-size: 16px;
     color:var(--ColorVerde);
 }
