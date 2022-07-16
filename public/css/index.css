@@ -164,15 +164,16 @@
 
 /*ESTILOS DEL FOOTER*/
 .body_footer{
-    background-color: var(--ColorGrisClaro);
+    margin: 5%;
     padding-top: 10px ;
 }
 
 .body_footer_section {
     text-align: center;
     padding: 15px 0;
-    
+    background-color: #fff;    
 }
+
 
 .body_footer_icon {
     font-size: 2em;
@@ -189,6 +190,7 @@
 .copyrigth {
     font-size: .7rem;
     text-align: center;
+    color: var(--ColorGrisOscuro);
 }
 
 footer ul li {
