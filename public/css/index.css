@@ -9,8 +9,7 @@
 .body_header--superior {
     display: flex;
     flex-wrap: wrap;
-    gap : 10px 0px;
-    
+    justify-content: space-between;
 }
 
 .body_header--superior img {
@@ -30,7 +29,7 @@
     color: rgba(0, 0, 0,.4) ;
     font-size: 13px;
     height: 30px;
-    width: 89%;
+    width: 85%;
     border:none;
     border-radius: 10px;
 }
@@ -230,21 +229,51 @@ footer ul li {
 /*Media Queries || TABLET*/
 @media (min-width: 768px ){
     /*HEADER*/
+
+    .body_header{
+        padding: 20px 10px 10px;
+    }
+    
     .body_header--superior form input{
         color: rgba(0, 0, 0,.4) ;
         font-size: 16px;
     }
+ 
+    .body_header--superior img {
+        width: 32%;
+    }
     
+    .body_header--superior form {
+        width: 32%;
+    }
+    
+
+    .body_header--superior h2 {
+        width: 32%;    
+    }
+
     .body_header_botton--burger{
         display: none;
     }
 
-    .body_header--menu ul {
-        display: inline-block;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    .body_header--menu{
+        display: flex;
+        justify-content: space-between;
     }
+    
+    .body_header--menu ul {
+        display: flex;
+        list-style: none;
+        margin: 40px 0 0 0 ;
+        padding: 0;
+
+    }
+
+    .body_header--menu ul li{
+        margin: 0px 5px ;
+
+    }
+
 
     /*MAIN*/
 
