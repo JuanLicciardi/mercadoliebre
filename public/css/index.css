@@ -129,12 +129,13 @@
     margin:auto;
 }
 
-.body_main--ultimaVisita p.precio {
+.body_main--ultimaVisita p.precio { 
     width: 37%;
     font-size: 18px;
 }
 
 .body_main--ultimaVisita p.descuento {
+    margin: auto 0;
     width: 63%;
     font-size: 16px;
     color:var(--ColorVerde);
@@ -157,16 +158,20 @@
 }
 
 .body_main--ofertas p.precio {
-    margin-left: 10px;
+    width: 37%;
     font-size: 18px;
 }
 
 .body_main--ofertas p.descuento {
-    margin-left: 10px;
+    margin: auto 0;
+    width: 63%;
     font-size: 16px;
+    color:var(--ColorVerde);
 }
 
+
 .body_main--ofertas p.descripcion {
+    display: none;
     margin-left: 10px;
     font-size: 16px;
 }
@@ -197,6 +202,7 @@
 }
 
 .copyrigth {
+    background-color: #fff;
     font-size: .7rem;
     text-align: center;
     color: var(--ColorGrisOscuro);
@@ -228,6 +234,27 @@ footer ul li {
     }
 
     /*MAIN*/
+
+    .body_main--ultimaVisita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .body_main_UV-boxproduct{
+        width: 46%;
+    }
+
+    .body_main--ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .body_main_Of-boxproduct{
+        width: 46%;
+    }
+
     .body_main_article--img{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
@@ -239,7 +266,11 @@ footer ul li {
     .body_main--ultimaVisita p.descripcion {
         display: inline-block;
     }
-        
+
+    .body_main--ofertas p.descripcion {
+        display: inline-block;
+    }
+           
 }
 
 /*Media Queries || Desktop*/
@@ -251,5 +282,29 @@ footer ul li {
         font-size: 26px;
     }
     
-        
+    .body_main_UV-boxproduct{
+        width: 23%;
+    }
+    
+    .body_main_Of-boxproduct{
+        width: 23%;
+    }   
+
+    .body_main--ultimaVisita p.precio {
+        width: 50%;
+    }
+    
+    .body_main--ultimaVisita p.descuento {
+        width: 50%;
+    }
+    
+    
+    .body_main--ofertas p.precio {
+        width: 50%;
+    }
+    
+    .body_main--ofertas p.descuento {
+        width: 50%;
+    }
+    
 }
