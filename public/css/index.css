@@ -13,7 +13,7 @@
 }
 
 .body_header--superior img {
-    width: 50%;
+    width: 45%;
 }
 
 .body_header--superior form {
@@ -23,20 +23,31 @@
     align-items: center;
     justify-content: right;
     width: 50%;
+    position: relative;
 }
 
 .body_header--superior form input{
-    color: rgba(0, 0, 0,.4) ;
+    color: var(--ColorGrisClaro) ;
     font-size: 13px;
     height: 30px;
-    width: 85%;
+    width: 100%;
     border:none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
-.body_header--superior h2 {
+.body_header--superior form i{
+    color: var(--ColorGrisOscuro);
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    right: 3px;    
+}
+
+
+.body_header--superior h5 {
     font-weight: 400;
     text-align: center;
+    margin: 30px auto 0;
 }
 
 .body_header_botton--burger{
@@ -49,7 +60,7 @@
     border-radius : 10px;
     font-size: 18px;
     margin: 0 auto 0px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .body_header--menu ul {
@@ -93,9 +104,7 @@
 
 .body_main_article--img img{
     width: 100%;
-    
 }
-
 
 .body_main_article--item{
     display: flex;
@@ -126,9 +135,9 @@
 
 .body_main_titulares{
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: var(--ColorGrisOscuro);
-    margin: 0;
+    margin: 50px 0px 10px;
 }
 
 .body_main--ultimaVisita section {
@@ -234,10 +243,6 @@ footer ul li {
         padding: 20px 10px 10px;
     }
     
-    .body_header--superior form input{
-        color: rgba(0, 0, 0,.4) ;
-        font-size: 16px;
-    }
  
     .body_header--superior img {
         width: 32%;
@@ -245,11 +250,25 @@ footer ul li {
     
     .body_header--superior form {
         width: 32%;
+        justify-content: center;
+    }
+
+    .body_header--superior form input{
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .body_header--superior form i{
+        background-color: #fff;
+        position: absolute;
+        top: 20px;
+        right: 1px;
+        height: 23px;
     }
     
-
-    .body_header--superior h2 {
-        width: 32%;    
+    .body_header--superior h5 {
+        width: 36%;
+        margin: auto 0px;    
     }
 
     .body_header_botton--burger{
@@ -318,12 +337,38 @@ footer ul li {
 /*Media Queries || Desktop*/
 @media (min-width: 1024px ){
 
+
     /*HEADER*/
     .body_header--superior form input{
         color: rgba(0, 0, 0,.4) ;
         font-size: 26px;
     }
-    
+
+    .body_header--superior form input{
+        font-size: 20px;
+    }
+
+    .body_header--superior form i{
+        background-color: #fff;
+        position: absolute;
+        font-size: 25px;
+        margin: auto;
+        top: 29px;
+        right: 8px;
+        height: 25px;
+        width:25px;
+        border: 1px solid var(--ColorGrisOscuro);
+    }
+
+
+    .body_header--superior h5 {
+        font-size: 17px;
+        width: 36%;
+        margin: auto 0px;    
+    }
+
+
+    /*MAIN*/
     .body_main_UV-boxproduct{
         width: 23%;
     }
