@@ -45,37 +45,43 @@
 
     <main class="register_main">
         <section class="register_section">
-            <form class="register_form " action="">
+            <form class="register_form" action="">
                 <h4>Datos de Usuario</h4>
                 <div class="register_form_contenedor">
                     <label for="nombre"></label>
-                    <input type="text" value="Ingrese Nombre" id="nombre">
+                    <input class="register_form_contenedor-Input" type="text" value="Ingrese Nombre" id="nombre">
                 </div>
                 <div class="register_form_contenedor">
                     <label for="apellido"></label>
-                    <input type="text" value="Ingrese apellido" id="apellido">
+                    <input class="register_form_contenedor-Input" type="text" value="Ingrese apellido" id="apellido">
                 </div>
                 <div class="register_form_contenedor">
                     <label for="usuario"></label>
-                    <input type="text" value="Ingrese usuario" id="usuario">
+                    <input class="register_form_contenedor-Input" type="text" value="Ingrese usuario" id="usuario">
                 </div>
                 <hr>
                 <h4>Fecha de Nacimiento</h4>
-                <div class="register_form_contenedor">
+                <div class="register_form_contenedor-fn">
                     <label for="fechaNacimiento"></label>
                     <input type="date" id="fechaNacimiento">
                 </div>
                 <hr>
-                <h4>Perfil de Usuario</h4>
-                    <div class="register_form_contenedor">
-                        <input type="radio" name="perfil" value="Comprador" checked>
-                        <label for="">comprador</label>
-                        <input type="radio" name="perfil" value="Vendedor">
-                        <label for="">Vendedor</label>
-                    </div>
-                    <hr>
-                <h4>Categorías de Interés </h4>
+                <h4>Domicilio</h4>
                 <div class="register_form_contenedor">
+                    <label for="domicilio"></label>
+                    <input class="register_form_contenedor-Input" type="text" value="Ingrese Domicilio" id="domicilio">
+                </div>
+                <hr>
+                <h4>Perfil de Usuario</h4>
+                <div class="register_form_contenedor">
+                    <input type="radio" name="perfil" value="Comprador" checked>
+                    <label for="">comprador</label>
+                    <input type="radio" name="perfil" value="Vendedor">
+                    <label for="">Vendedor</label>
+                </div>
+                <hr>
+                <h4>Categorías de Interés </h4>
+                <div class="register_form_contenedor-checkbox">
                     <div>
                          <input type="checkbox" name="categoria" value="Electro">
                          <label for="categoria">Electro</label>
@@ -96,20 +102,22 @@
                         <input type="checkbox" name="categoria" value="Vida Sana">
                         <label for="categoria">Vida Sana</label>
                     </div>
-                    <hr>
-                    <h4>Fotografia</h4>
-                    <div>
-                        <input type="file" name="avatar" accept=".jpg" multiple >
-                    </div>
-                    <hr>
-                    <h4>contraseña</h4>
-                    <div>
-                        <input type="password" name="pass" value="Ingrese password" >
-                        <input type="password" name="confPass" value="Confirme password" >
-                    </div>
-                    <hr>
-                    <button>Enviar</button>
-                    <button>Reset</button>
+                </div>
+                <hr>
+                <h4>Fotografia</h4>
+                <div class="register_form_contenedor">
+                    <input type="file" name="avatar" accept=".jpg" multiple >
+                </div>
+                <hr>
+                <h4>contraseña</h4>
+                <div class="register_form_contenedor">
+                    <input class="register_form_contenedor-Input" type="password" name="pass" value="Ingrese password" >
+                    <input class="register_form_contenedor-Input" type="password" name="confPass" value="Confirme password" >
+                </div>
+                <hr>
+                <a href="/">volver</a>
+                <button  type="submit">Enviar</button>
+                <button type="reset">Reset</button>
             </form>
         </section>
     </main>

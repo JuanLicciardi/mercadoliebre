@@ -1,0 +1,51 @@
+
+.register_main{
+    background-color: var(--colorGrisClaro);
+    display: flex;
+    justify-content: center;
+}
+
+.register_section{
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.register_form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.register_form_contenedor{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.register_form_contenedor-checkbox{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register_form hr{
+    width: 90%;
+}
+
+.register_form_contenedor-Input{
+    width: 100%;
+    color: rgba(0, 0, 0, .5);
+    
+}
+
+.register_form_contenedor-fn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
