@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,13 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
-    <header class = "body_header">
-        <div class = "body_header--superior">
+    <header class="body_header">
+        <div class="body_header--superior">
             <img src="/images/logo-mercado-liebre.svg" alt="">
             <form action="">
-                <label><input type = "text" value ="Buscar productos, marcas" /> </i></label>
+                <label><input type="text" value="Buscar productos, marcas" /> </i></label>
                 <i class="fa-solid fa-magnifying-glass"></i>
             </form>
             <h5>
@@ -23,30 +25,98 @@
             </h5>
         </div>
 
-        <nav class = "body_header--menu">
-            <ul class = "body_header_menu--comercio">
+        <nav class="body_header--menu">
+            <ul class="body_header_menu--comercio">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
             <br>
-            <ul class = "body_header_menu--usuario">
-                <li><a href="">Creá tu cuenta<i class="fa-solid fa-address-card"></i></a></li>
-                <li><a href="">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+            <ul class="body_header_menu--usuario">
+                <li><a href="/register.html">Creá tu cuenta<i class="fa-solid fa-address-card"></i></a></li>
+                <li><a href="/login.html">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
                 <li><a href="#">Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
             </ul>
         </nav>
 
-        <a class ="body_header_botton--burger" href=""><i class="fa-solid fa-bars"></i></a>
+        <a class="body_header_botton--burger" href=""><i class="fa-solid fa-bars"></i></a>
     </header>
 
-    <main>
-        <h1>CREAR CUENTA</h1>
+    <main class="register_main">
+        <section class="register_section">
+            <form class="register_form " action="">
+                <h4>Datos de Usuario</h4>
+                <div class="register_form_contenedor">
+                    <label for="nombre"></label>
+                    <input type="text" value="Ingrese Nombre" id="nombre">
+                </div>
+                <div class="register_form_contenedor">
+                    <label for="apellido"></label>
+                    <input type="text" value="Ingrese apellido" id="apellido">
+                </div>
+                <div class="register_form_contenedor">
+                    <label for="usuario"></label>
+                    <input type="text" value="Ingrese usuario" id="usuario">
+                </div>
+                <hr>
+                <h4>Fecha de Nacimiento</h4>
+                <div class="register_form_contenedor">
+                    <label for="fechaNacimiento"></label>
+                    <input type="date" id="fechaNacimiento">
+                </div>
+                <hr>
+                <h4>Perfil de Usuario</h4>
+                    <div class="register_form_contenedor">
+                        <input type="radio" name="perfil" value="Comprador" checked>
+                        <label for="">comprador</label>
+                        <input type="radio" name="perfil" value="Vendedor">
+                        <label for="">Vendedor</label>
+                    </div>
+                    <hr>
+                <h4>Categorías de Interés </h4>
+                <div class="register_form_contenedor">
+                    <div>
+                         <input type="checkbox" name="categoria" value="Electro">
+                         <label for="categoria">Electro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="categoria" value="Moda">
+                        <label for="categoria">Moda</label>
+                    </div>
+                    <div>
+                         <input type="checkbox" name="categoria" value="Hogar">
+                         <label for="categoria">Hogar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="categoria" value="Jugueteria">
+                        <label for="categoria">Jugueteria</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="categoria" value="Vida Sana">
+                        <label for="categoria">Vida Sana</label>
+                    </div>
+                    <hr>
+                    <h4>Fotografia</h4>
+                    <div>
+                        <input type="file" name="avatar" accept=".jpg" multiple >
+                    </div>
+                    <hr>
+                    <h4>contraseña</h4>
+                    <div>
+                        <input type="password" name="pass" value="Ingrese password" >
+                        <input type="password" name="confPass" value="Confirme password" >
+                    </div>
+                    <hr>
+                    <button>Enviar</button>
+                    <button>Reset</button>
+            </form>
+        </section>
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
