@@ -23,7 +23,11 @@
             </h5>
         </div>
 
-        <nav class = "body_header--menu">
+        <button class ="body_header_botton--burger" onclick="document.querySelector('.body_header--menu').classList.toggle('show')">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        
+        <nav class = "body_header--menu show">
             <ul class = "body_header_menu--comercio">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
@@ -38,7 +42,7 @@
             </ul>
         </nav>
 
-        <a class ="body_header_botton--burger" href=""><i class="fa-solid fa-bars"></i></a>
+        
     </header>
 
     <main class="login_main">
@@ -46,6 +50,7 @@
             <form class="login_form" action="">
                 <div class="login_form_contenedor">
                     <input class="login_form_contenedor-Input" type="text" value="" id="usuario" placeholder="Nombre de Usuario">
+                    <p> ¿No estás Registrado? <a href="register.html">Registrate</a> </p>
                 </div>
                 <div class="register_form_contenedor">
                     <input class="login_form_contenedor-Input" type="password" name="pass" value="" placeholder="Elegi tu contraseña">

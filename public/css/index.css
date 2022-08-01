@@ -63,13 +63,17 @@
     margin-top: 10px;
 }
 
-.body_header--menu ul {
+.body_header--menu{
     display: none;
+}
+
+
+
+.body_header--menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 
 .body_header--menu a {
     display: inline-block;
@@ -78,6 +82,8 @@
     color : var(--ColorOscuro);
     text-decoration: none;
 }
+
+
 
 /* ESTILOS DEL BANNER*/
 .body_header--banner{
@@ -197,6 +203,7 @@
     font-size: 16px;
 }
 
+
 /*ESTILOS DEL FOOTER*/
 .body_footer{
     margin: 5%;
@@ -232,6 +239,10 @@
 footer ul li {
     list-style: none;
     font-weight: normal;
+}
+
+.show{
+    display: block;
 }
 
 
