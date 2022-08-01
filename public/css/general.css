@@ -22,9 +22,10 @@
 /*Configuracion de Body & Header*/
 body{
     padding: 0 ;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Roboto';
-    background-color: var(--ColorGrisClaro);
+    background-color: #ededed;
+    max-width: 1030px;
 }
 
 

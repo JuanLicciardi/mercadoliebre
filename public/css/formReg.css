@@ -1,3 +1,4 @@
+/* MEDIA QUERY || MOVIL*/
 
 .register_main{
     background-color: var(--colorGrisClaro);
@@ -8,6 +9,7 @@
 .register_section{
     width: 90%;
     background-color: #ffffff;
+    margin-top: 5%;
 }
 
 .register_form{
@@ -24,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 5px 0px;
 }
 
 .register_form_contenedor-checkbox{
@@ -49,3 +52,19 @@
     display: flex;
     justify-content: center;
 }
+
+/* MEDIA QUERY || TABLET*/
+
+@media (min-width:760px){
+    .register_section{
+        width: 60%;
+        box-shadow: 5px 5px 3px 2px rgba(0, 0, 0, 0.2);
+    }
+    
+}
+
+
+
+/* MEDIA QUERY || DESKTOP*/
+
+

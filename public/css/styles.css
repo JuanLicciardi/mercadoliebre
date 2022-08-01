@@ -2,5 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import "./general.css";
 @import "./index.css";
-@import "./form.css";
+@import "./formReg.css";
+@import "./formLog.css";
+
 
