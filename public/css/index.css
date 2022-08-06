@@ -386,8 +386,6 @@ footer ul li {
 /*Media Queries || Desktop*/
 @media (min-width: 1024px ){
 
-    
-
     /*HEADER*/
     .body_header--superior form input{
         color: rgba(0, 0, 0,.4) ;
@@ -451,5 +449,29 @@ footer ul li {
     .body_main--ofertas p.descuento {
         width: 50%;
     }
+
+    /*MAIN*/
     
+    .body_footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row ;
+        justify-content: space-around;
+    }
+    
+    .body_footer_section{
+        width: 32%;
+        transition: 1s;
+    }
+
+    .body_footer_section:hover i{
+        color: #ffff00;
+    }
+
+
+    .copyrigth{
+        width: 97%;
+        margin-top: 10px;
+    }
 }
